@@ -17,4 +17,8 @@ export class AppComponent {
   onClickMatButtons(){
     this.router.navigateByUrl('/material-button');
   }
+
+  onClickIcons(){
+    this.router.navigateByUrl('/material-icons');  
+  }
 }
