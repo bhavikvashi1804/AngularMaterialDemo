@@ -15,7 +15,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
