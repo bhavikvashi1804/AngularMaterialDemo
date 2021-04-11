@@ -12,15 +12,26 @@ import { BadgesComponent } from './badges/badges.component';
 import { LoadingComponent } from './loading/loading.component';
 import { NavDemoComponent } from './nav-demo/nav-demo.component';
 import { SlideNavDemoComponent } from './slide-nav-demo/slide-nav-demo.component';
+import { FormsModule } from '@angular/forms';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, ButtonsComponent, IconsComponent, BadgesComponent, LoadingComponent, NavDemoComponent, SlideNavDemoComponent],
+  declarations: [
+    AppComponent,
+    TypographyComponent,
+    ButtonsComponent,
+    IconsComponent,
+    BadgesComponent,
+    LoadingComponent,
+    NavDemoComponent,
+    SlideNavDemoComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

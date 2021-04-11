@@ -1,8 +1,9 @@
 <mat-sidenav-container>
-    <mat-sidenav opened>
+    <mat-sidenav [(opened)]="opened">
         Side Nav
     </mat-sidenav>
     <mat-sidenav-content>
         Main content
+        <button (click)="opened = !opened">Toggle</button>
     </mat-sidenav-content>
 </mat-sidenav-container>
