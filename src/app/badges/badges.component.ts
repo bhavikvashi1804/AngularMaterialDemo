@@ -5,6 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './badges.component.html',
 })
 export class BadgesComponent implements OnInit {
+
+  myRattings = 4;
+  myRattings1 = 4;
+  noOfNotifications = 0;
   constructor() {}
 
   ngOnInit(): void {}
