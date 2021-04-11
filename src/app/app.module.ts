@@ -13,7 +13,7 @@ import { LoadingComponent } from './loading/loading.component';
 import { NavDemoComponent } from './nav-demo/nav-demo.component';
 import { SlideNavDemoComponent } from './slide-nav-demo/slide-nav-demo.component';
 import { FormsModule } from '@angular/forms';
-import { MenuComponent } from './menu/menu.component';
+import { MenuDemoComponent } from './menu-demo/menu-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -26,7 +26,7 @@ import { MenuComponent } from './menu/menu.component';
     LoadingComponent,
     NavDemoComponent,
     SlideNavDemoComponent,
-    MenuComponent,
+    MenuDemoComponent,
   ],
   imports: [
     BrowserModule,
