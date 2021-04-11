@@ -13,4 +13,8 @@ export class AppComponent {
   onClickTypography(){
     this.router.navigateByUrl('/typo-graphy');
   }
+
+  onClickMatButtons(){
+    this.router.navigateByUrl('/material-button');
+  }
 }
