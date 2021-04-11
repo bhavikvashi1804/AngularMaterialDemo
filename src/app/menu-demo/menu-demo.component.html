@@ -1,6 +1,6 @@
 <hr>
 <mat-menu #appMenu="matMenu">
-    <button mat-menu-item>Front End</button>
+    <button mat-menu-item [matMenuTriggerFor]="subMenu">Front End</button>
     <button mat-menu-item>Back End</button>
 </mat-menu>
 
@@ -8,3 +8,8 @@
 
 
 <hr>
+<mat-menu #subMenu="matMenu">
+    <button mat-menu-item>Angular</button>
+    <button mat-menu-item>React</button>
+    <button mat-menu-item>React</button>
+</mat-menu>
