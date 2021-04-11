@@ -32,4 +32,7 @@ export class AppComponent {
   onClickNavBar(){
     this.router.navigateByUrl('/material-navbar');
   }
+  onClickSideNav(){
+    this.router.navigateByUrl('/material-sidenav');
+  }
 }
