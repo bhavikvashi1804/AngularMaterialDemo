@@ -11,4 +11,8 @@ export class SlideNavDemoComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  log(data){
+    console.log(data);
+  }
 }

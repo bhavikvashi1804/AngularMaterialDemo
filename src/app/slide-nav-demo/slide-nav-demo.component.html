@@ -1,5 +1,5 @@
 <mat-sidenav-container>
-    <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+    <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="log('side nav open')" (closed)="log('side nav close')">
         Side Nav
     </mat-sidenav>
     <mat-sidenav-content>
