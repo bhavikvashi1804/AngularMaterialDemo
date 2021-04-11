@@ -24,4 +24,8 @@ export class AppComponent {
   onClickBadges() {
     this.router.navigateByUrl('/material-badge');
   }
+
+  onClickProgress(){
+    this.router.navigateByUrl('/material-progress');
+  }
 }
