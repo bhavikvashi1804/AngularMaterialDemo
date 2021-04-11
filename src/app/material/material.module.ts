@@ -17,6 +17,7 @@ const MaterialComponents = [
   MatToolbarModule,
   MatSidenavModule,
   MatBadgeModule,
+  MatMenuModule
 ];
 
 @NgModule({
