@@ -13,3 +13,17 @@
     <button mat-menu-item>React</button>
     <button mat-menu-item>React</button>
 </mat-menu>
+
+<hr>
+<mat-menu #lazyMenu="matMenu">
+    <ng-template matMenuContent let-name="name">
+        <button mat-menu-item>Settings</button>
+        <button mat-menu-item>Logout {{name}}</button>
+    </ng-template>
+</mat-menu>
+
+
+<button mat-raised-button color="accent" [matMenuTriggerData]="{ name: 'Bhavik'}"
+    [matMenuTriggerFor]="lazyMenu">Bhavik</button>
+<button mat-raised-button color="accent" [matMenuTriggerData]="{ name: 'Raj'}"
+    [matMenuTriggerFor]="lazyMenu">Raj</button>
