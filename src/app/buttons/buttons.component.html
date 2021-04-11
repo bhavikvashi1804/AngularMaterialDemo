@@ -17,3 +17,26 @@ Button Colors: You can apply the color any type of button<br>
     <button color="accent" mat-raised-button>Accent</button>
     <button color="warn" mat-raised-button>Warn</button>
 </div>
+
+<hr>
+Button Toggle
+<br>
+<mat-button-toggle #toggleButton Checked>Toggle Button</mat-button-toggle> {{toggleButton.checked}}
+
+<hr>
+
+<div>
+    <mat-button-toggle-group #toggleGrp="matButtonToggleGroup">
+        <mat-button-toggle value="angular">Angular</mat-button-toggle>
+        <mat-button-toggle value="react">React</mat-button-toggle>
+        <mat-button-toggle value="flutter">Flutter</mat-button-toggle>
+    </mat-button-toggle-group>
+    {{toggleGrp.value}}
+    <br>
+    <mat-button-toggle-group #toggleGrp1="matButtonToggleGroup" multiple>
+        <mat-button-toggle value="angular">Angular</mat-button-toggle>
+        <mat-button-toggle value="react">React</mat-button-toggle>
+        <mat-button-toggle value="flutter">Flutter</mat-button-toggle>
+    </mat-button-toggle-group>
+    {{toggleGrp1.value}}
+</div>
