@@ -10,10 +10,11 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { IconsComponent } from './icons/icons.component';
 import { BadgesComponent } from './badges/badges.component';
 import { LoadingComponent } from './loading/loading.component';
+import { NavDemoComponent } from './nav-demo/nav-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
-  declarations: [AppComponent, TypographyComponent, ButtonsComponent, IconsComponent, BadgesComponent, LoadingComponent],
+  declarations: [AppComponent, TypographyComponent, ButtonsComponent, IconsComponent, BadgesComponent, LoadingComponent, NavDemoComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

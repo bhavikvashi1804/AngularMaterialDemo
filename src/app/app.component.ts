@@ -28,4 +28,8 @@ export class AppComponent {
   onClickProgress(){
     this.router.navigateByUrl('/material-progress');
   }
+
+  onClickNavBar(){
+    this.router.navigateByUrl('/material-navbar');
+  }
 }
