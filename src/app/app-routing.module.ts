@@ -4,6 +4,7 @@ import { BadgesComponent } from './badges/badges.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { IconsComponent } from './icons/icons.component';
 import { LoadingComponent } from './loading/loading.component';
+import { MenuComponent } from './menu/menu.component';
 import { NavDemoComponent } from './nav-demo/nav-demo.component';
 import { SlideNavDemoComponent } from './slide-nav-demo/slide-nav-demo.component';
 import { TypographyComponent } from './typography/typography.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'material-progress', component: LoadingComponent },
   { path: 'material-navbar', component: NavDemoComponent },
   { path: 'material-sidenav', component: SlideNavDemoComponent },
+  { path: 'material-menu', component: MenuComponent },
 ];
 
 @NgModule({

@@ -35,4 +35,7 @@ export class AppComponent {
   onClickSideNav(){
     this.router.navigateByUrl('/material-sidenav');
   }
+  onClickMenu(){
+    this.router.navigateByUrl('/material-menu');
+  }
 }
