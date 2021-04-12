@@ -1,1 +1,30 @@
-<p>expansion-demo works!</p>
+<div style="padding: 10px;">
+
+    <mat-accordion>
+        <!--  mat-accordion malti="true" -->
+        <!-- benefit of accordion: automically close the other panel, if we click on panel -->
+        <!-- if you want to hide to toggle button then use hideToggle="true" -->
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>Angular</mat-panel-title>
+                <mat-panel-description>This is framework</mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>This is the panel content</p>
+            <mat-action-row>
+                <button mat-button>Enroll</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>Angular Material</mat-panel-title>
+                <mat-panel-description>This is UI framework</mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>This is the panel content</p>
+            <mat-action-row>
+                <button mat-button>Enroll</button>
+            </mat-action-row>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+
+
