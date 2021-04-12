@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AutoComplDemoComponent implements OnInit {
 
+  options: string[] = ['Angular', 'React', 'Vue'];
+
   constructor() { }
 
   ngOnInit(): void {
