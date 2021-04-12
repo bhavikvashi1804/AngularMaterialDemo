@@ -8,10 +8,47 @@
 </mat-grid-list>
 <!-- no of cols we specify -->
 <!-- no of rows will be specify the automatically  -->
+gutter size: provides more space btw each grid tile
+<mat-grid-list cols="2" rowHeight="50px" gutterSize="5px">
+    <mat-grid-tile>Tile 1</mat-grid-tile>
+    <mat-grid-tile>Tile 2</mat-grid-tile>
+    <mat-grid-tile>Tile 3</mat-grid-tile>
+    <mat-grid-tile>Tile 4</mat-grid-tile>
+    <mat-grid-tile>Tile 5</mat-grid-tile>
+    <mat-grid-tile>Tile 6</mat-grid-tile>
+</mat-grid-list>
 
+Row Height
+<mat-grid-list cols="2" rowHeight="100px">
+    <mat-grid-tile>Tile 1</mat-grid-tile>
+    <mat-grid-tile>Tile 2</mat-grid-tile>
+    <mat-grid-tile>Tile 3</mat-grid-tile>
+    <mat-grid-tile>Tile 4</mat-grid-tile>
+    <mat-grid-tile>Tile 5</mat-grid-tile>
+    <mat-grid-tile>Tile 6</mat-grid-tile>
+</mat-grid-list>
+Row Height in 2:1 row height is half the column width <br>
+rowHeight="2:1" => Column Width: 200px then Column Height: 100px
+<mat-grid-list cols="2" rowHeight="4:1">
+    <mat-grid-tile>Tile 1</mat-grid-tile>
+    <mat-grid-tile>Tile 2</mat-grid-tile>
+    <mat-grid-tile>Tile 3</mat-grid-tile>
+    <mat-grid-tile>Tile 4</mat-grid-tile>
+    <mat-grid-tile>Tile 5</mat-grid-tile>
+    <mat-grid-tile>Tile 6</mat-grid-tile>
+</mat-grid-list>
+Other way fit: whole container will be fit into specified height
+<mat-grid-list cols="2" rowHeight="fit" style="height: 200px;">
+    <mat-grid-tile>Tile 1</mat-grid-tile>
+    <mat-grid-tile>Tile 2</mat-grid-tile>
+    <mat-grid-tile>Tile 3</mat-grid-tile>
+    <mat-grid-tile>Tile 4</mat-grid-tile>
+    <mat-grid-tile>Tile 5</mat-grid-tile>
+    <mat-grid-tile>Tile 6</mat-grid-tile>
+</mat-grid-list>
 
 Rowspan
-<mat-grid-list cols="2">
+<mat-grid-list cols="2" rowHeight="50px">
     <mat-grid-tile rowspan="2">Tile 1</mat-grid-tile>
     <mat-grid-tile>Tile 2</mat-grid-tile>
     <mat-grid-tile>Tile 3</mat-grid-tile>
@@ -21,7 +58,7 @@ Rowspan
 </mat-grid-list>
 
 Colspan
-<mat-grid-list cols="2">
+<mat-grid-list cols="2" rowHeight="50px">
     <mat-grid-tile colspan="2">Tile 1</mat-grid-tile>
     <mat-grid-tile>Tile 2</mat-grid-tile>
     <mat-grid-tile>Tile 3</mat-grid-tile>
