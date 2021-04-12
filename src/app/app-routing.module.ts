@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BadgesComponent } from './badges/badges.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { IconsComponent } from './icons/icons.component';
+import { ListDemoComponent } from './list-demo/list-demo.component';
 import { LoadingComponent } from './loading/loading.component';
 import { MenuDemoComponent } from './menu-demo/menu-demo.component';
 import { NavDemoComponent } from './nav-demo/nav-demo.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'material-navbar', component: NavDemoComponent },
   { path: 'material-sidenav', component: SlideNavDemoComponent },
   { path: 'material-menu', component: MenuDemoComponent },
+  { path: 'material-list', component: ListDemoComponent },
 ];
 
 @NgModule({

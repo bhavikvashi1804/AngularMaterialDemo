@@ -38,4 +38,7 @@ export class AppComponent {
   onClickMenu(){
     this.router.navigateByUrl('/material-menu');
   }
+  onClickList(){
+    this.router.navigateByUrl('/material-list');
+  }
 }
