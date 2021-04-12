@@ -45,4 +45,7 @@ export class AppComponent {
   onClickGrid(){
     this.router.navigateByUrl('/material-grid');
   }
+  onClickExpan(){
+    this.router.navigateByUrl('/material-expan');
+  }
 }
