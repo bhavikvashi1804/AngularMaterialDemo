@@ -21,6 +21,10 @@ export class DialogDemoComponent implements OnInit {
   ngOnInit(): void {}
 
   open(){
-    this.dialog.open(DialogExampleComponent);
+    let dRef = this.dialog.open(DialogExampleComponent);
+
+    dRef.afterClosed().subscribe(
+      (result)=>console.log(result),
+    );
   }
 }
