@@ -1,1 +1,58 @@
-<p>input-demo works!</p>
+<mat-form-field>
+    <mat-label>Name</mat-label>
+    <input matInput>
+</mat-form-field>
+<br>
+<!-- Label will be hidden -->
+<mat-form-field floatLabel="never">
+    <mat-label>Name</mat-label>
+    <input matInput>
+</mat-form-field>
+<br>
+<mat-form-field floatLabel="always">
+    <mat-label>Name</mat-label>
+    <input matInput>
+</mat-form-field>
+<hr>Required<br>
+<mat-form-field floatLabel="always">
+    <mat-label>Name</mat-label>
+    <input matInput required>
+</mat-form-field>
+<br>Hide Required Marker<br>
+<mat-form-field hideRequiredMarker>
+    <mat-label>Name</mat-label>
+    <input matInput required>
+</mat-form-field>
+<hr>Provide the Hint<br>
+<mat-form-field hideRequiredMarker>
+    <mat-label>Name</mat-label>
+    <input matInput>
+    <mat-hint>Enter your name</mat-hint>
+</mat-form-field>
+
+<hr>
+Apprearance
+<br>
+<mat-form-field appearance="legacy">
+    <mat-label>Name</mat-label>
+    <input matInput>
+    <mat-hint>Enter your name</mat-hint>
+</mat-form-field>
+
+<mat-form-field appearance="standard">
+    <mat-label>Name</mat-label>
+    <input matInput>
+    <mat-hint>Enter your name</mat-hint>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput>
+    <mat-hint>Enter your name</mat-hint>
+</mat-form-field>
+
+<mat-form-field appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput>
+    <mat-hint>Enter your name</mat-hint>
+</mat-form-field>
