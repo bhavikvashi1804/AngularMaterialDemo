@@ -12,7 +12,7 @@ import { BadgesComponent } from './badges/badges.component';
 import { LoadingComponent } from './loading/loading.component';
 import { NavDemoComponent } from './nav-demo/nav-demo.component';
 import { SlideNavDemoComponent } from './slide-nav-demo/slide-nav-demo.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenuDemoComponent } from './menu-demo/menu-demo.component';
 import { ListDemoComponent } from './list-demo/list-demo.component';
 import { GridDemoComponent } from './grid-demo/grid-demo.component';
@@ -52,6 +52,7 @@ import { AutoComplDemoComponent } from './auto-compl-demo/auto-compl-demo.compon
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
