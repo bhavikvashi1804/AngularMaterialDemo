@@ -3,13 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-tabs-demo',
   templateUrl: './tabs-demo.component.html',
-  styleUrls: ['./tabs-demo.component.css']
+  styleUrls: ['./tabs-demo.component.css'],
 })
 export class TabsDemoComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  logChange(data) {
+    console.log(data);
   }
-
 }
