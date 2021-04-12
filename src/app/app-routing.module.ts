@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BadgesComponent } from './badges/badges.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { GridDemoComponent } from './grid-demo/grid-demo.component';
 import { IconsComponent } from './icons/icons.component';
 import { ListDemoComponent } from './list-demo/list-demo.component';
 import { LoadingComponent } from './loading/loading.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'material-sidenav', component: SlideNavDemoComponent },
   { path: 'material-menu', component: MenuDemoComponent },
   { path: 'material-list', component: ListDemoComponent },
+  { path: 'material-grid', component: GridDemoComponent },
 ];
 
 @NgModule({

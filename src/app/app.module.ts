@@ -15,6 +15,7 @@ import { SlideNavDemoComponent } from './slide-nav-demo/slide-nav-demo.component
 import { FormsModule } from '@angular/forms';
 import { MenuDemoComponent } from './menu-demo/menu-demo.component';
 import { ListDemoComponent } from './list-demo/list-demo.component';
+import { GridDemoComponent } from './grid-demo/grid-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -29,6 +30,7 @@ import { ListDemoComponent } from './list-demo/list-demo.component';
     SlideNavDemoComponent,
     MenuDemoComponent,
     ListDemoComponent,
+    GridDemoComponent,
   ],
   imports: [
     BrowserModule,
