@@ -28,6 +28,7 @@ import { RadioDemoComponent } from './radio-demo/radio-demo.component';
 import { DatepickDemoComponent } from './datepick-demo/datepick-demo.component';
 import { TooptipComponent } from './tooptip/tooptip.component';
 import { SnackbarDemoComponent } from './snackbar-demo/snackbar-demo.component';
+import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -55,6 +56,7 @@ import { SnackbarDemoComponent } from './snackbar-demo/snackbar-demo.component';
     DatepickDemoComponent,
     TooptipComponent,
     SnackbarDemoComponent,
+    DialogDemoComponent,
   ],
   imports: [
     BrowserModule,
