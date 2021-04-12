@@ -26,6 +26,7 @@ import { AutoComplDemoComponent } from './auto-compl-demo/auto-compl-demo.compon
 import { CheckboxDemoComponent } from './checkbox-demo/checkbox-demo.component';
 import { RadioDemoComponent } from './radio-demo/radio-demo.component';
 import { DatepickDemoComponent } from './datepick-demo/datepick-demo.component';
+import { TooptipComponent } from './tooptip/tooptip.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -51,6 +52,7 @@ import { DatepickDemoComponent } from './datepick-demo/datepick-demo.component';
     CheckboxDemoComponent,
     RadioDemoComponent,
     DatepickDemoComponent,
+    TooptipComponent,
   ],
   imports: [
     BrowserModule,
