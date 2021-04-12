@@ -21,7 +21,7 @@ export class DialogDemoComponent implements OnInit {
   ngOnInit(): void {}
 
   open(){
-    let dRef = this.dialog.open(DialogExampleComponent);
+    let dRef = this.dialog.open(DialogExampleComponent, { data: { name: 'Bhavik'}});
 
     dRef.afterClosed().subscribe(
       (result)=>console.log(result),
