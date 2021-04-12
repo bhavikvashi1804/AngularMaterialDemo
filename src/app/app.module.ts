@@ -19,6 +19,7 @@ import { GridDemoComponent } from './grid-demo/grid-demo.component';
 import { ExpansionDemoComponent } from './expansion-demo/expansion-demo.component';
 import { CardDemoComponent } from './card-demo/card-demo.component';
 import { TabsDemoComponent } from './tabs-demo/tabs-demo.component';
+import { StepperDemoComponent } from './stepper-demo/stepper-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -37,6 +38,7 @@ import { TabsDemoComponent } from './tabs-demo/tabs-demo.component';
     ExpansionDemoComponent,
     CardDemoComponent,
     TabsDemoComponent,
+    StepperDemoComponent,
   ],
   imports: [
     BrowserModule,
