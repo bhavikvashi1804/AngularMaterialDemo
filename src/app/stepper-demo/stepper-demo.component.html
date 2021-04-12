@@ -1,1 +1,62 @@
-<p>stepper-demo works!</p>
+<mat-horizontal-stepper>
+    <mat-step label="Step 1">
+        Enter the shopping address
+    </mat-step>
+    <mat-step label="Step 2">
+        Enter the payment details
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="Step 3">
+        Place your order
+    </mat-step>
+
+
+</mat-horizontal-stepper>
+
+
+<mat-horizontal-stepper linear>
+    <mat-step label="Step 1" completed="true">
+        Enter the shopping address
+    </mat-step>
+    <mat-step label="Step 2" completed="false" optional>
+        Enter the payment details
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="Step 3" completed="false">
+        Place your order
+    </mat-step>
+    <mat-step label="Step 4" completed="false">
+        Place your order1
+    </mat-step>
+
+
+</mat-horizontal-stepper>
+
+
+
+<mat-vertical-stepper linear>
+    <mat-step label="Step 1" completed="true">
+        Enter the shopping address
+    </mat-step>
+    <mat-step label="Step 2" completed="false" optional>
+        Enter the payment details
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button matStepperNext>Next</button>
+        </div>
+    </mat-step>
+    <mat-step label="Step 3" completed="false">
+        Place your order
+    </mat-step>
+    <mat-step label="Step 4" completed="false">
+        Place your order1
+    </mat-step>
+
+
+</mat-vertical-stepper>
