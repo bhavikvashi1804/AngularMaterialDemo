@@ -48,4 +48,7 @@ export class AppComponent {
   onClickExpan(){
     this.router.navigateByUrl('/material-expan');
   }
+  onClickCard(){
+    this.router.navigateByUrl('/material-card');
+  }
 }
