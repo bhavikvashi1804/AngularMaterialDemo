@@ -22,6 +22,7 @@ import { TabsDemoComponent } from './tabs-demo/tabs-demo.component';
 import { StepperDemoComponent } from './stepper-demo/stepper-demo.component';
 import { InputDemoComponent } from './input-demo/input-demo.component';
 import { SelectDemoComponent } from './select-demo/select-demo.component';
+import { AutoComplDemoComponent } from './auto-compl-demo/auto-compl-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -43,6 +44,7 @@ import { SelectDemoComponent } from './select-demo/select-demo.component';
     StepperDemoComponent,
     InputDemoComponent,
     SelectDemoComponent,
+    AutoComplDemoComponent,
   ],
   imports: [
     BrowserModule,
