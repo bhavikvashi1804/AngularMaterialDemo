@@ -24,6 +24,7 @@ import { InputDemoComponent } from './input-demo/input-demo.component';
 import { SelectDemoComponent } from './select-demo/select-demo.component';
 import { AutoComplDemoComponent } from './auto-compl-demo/auto-compl-demo.component';
 import { CheckboxDemoComponent } from './checkbox-demo/checkbox-demo.component';
+import { RadioDemoComponent } from './radio-demo/radio-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -47,6 +48,7 @@ import { CheckboxDemoComponent } from './checkbox-demo/checkbox-demo.component';
     SelectDemoComponent,
     AutoComplDemoComponent,
     CheckboxDemoComponent,
+    RadioDemoComponent,
   ],
   imports: [
     BrowserModule,
