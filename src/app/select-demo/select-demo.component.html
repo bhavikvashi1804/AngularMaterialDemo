@@ -1,1 +1,43 @@
-<p>select-demo works!</p>
+<mat-form-field appearance="fill">
+    <mat-label>Favorite food</mat-label>
+    <mat-select [(value)]="selectedValue">
+        <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+        </mat-option>
+    </mat-select>
+</mat-form-field>
+{{ selectedValue }}
+
+<mat-form-field appearance="fill">
+    <mat-label>Topic</mat-label>
+    <mat-select [(value)]="selectedValue1">
+        <mat-option>None</mat-option>
+        <mat-optgroup label="Web">
+            <mat-option value="react">React</mat-option>
+            <mat-option value="angular">Angular</mat-option>
+            <mat-option value="vue">Vue</mat-option>
+        </mat-optgroup>
+        <mat-optgroup label="Mobile">
+            <mat-option value="ionic">Ionic</mat-option>
+            <mat-option value="react_native">React Native</mat-option>
+        </mat-optgroup>
+    </mat-select>
+</mat-form-field>
+{{selectedValue1}}
+
+<mat-form-field appearance="fill">
+    <mat-label>Topic</mat-label>
+    <mat-select [(value)]="selectedValue2" multiple>
+        <mat-option>None</mat-option>
+        <mat-optgroup label="Web">
+            <mat-option value="react">React</mat-option>
+            <mat-option value="angular">Angular</mat-option>
+            <mat-option value="vue">Vue</mat-option>
+        </mat-optgroup>
+        <mat-optgroup label="Mobile">
+            <mat-option value="ionic">Ionic</mat-option>
+            <mat-option value="react_native">React Native</mat-option>
+        </mat-optgroup>
+    </mat-select>
+</mat-form-field>
+{{selectedValue2}}
