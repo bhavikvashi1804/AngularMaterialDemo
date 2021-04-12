@@ -11,6 +11,7 @@ import { LoadingComponent } from './loading/loading.component';
 import { MenuDemoComponent } from './menu-demo/menu-demo.component';
 import { NavDemoComponent } from './nav-demo/nav-demo.component';
 import { SlideNavDemoComponent } from './slide-nav-demo/slide-nav-demo.component';
+import { TabsDemoComponent } from './tabs-demo/tabs-demo.component';
 import { TypographyComponent } from './typography/typography.component';
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'material-grid', component: GridDemoComponent },
   { path: 'material-expan', component: ExpansionDemoComponent },
   { path: 'material-card', component: CardDemoComponent },
+  { path: 'material-tabs', component: TabsDemoComponent },
 ];
 
 @NgModule({

@@ -51,4 +51,7 @@ export class AppComponent {
   onClickCard(){
     this.router.navigateByUrl('/material-card');
   }
+  onClickTab(){
+    this.router.navigateByUrl('/material-tabs');
+  }
 }
