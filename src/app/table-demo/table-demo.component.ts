@@ -25,6 +25,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./table-demo.component.css'],
 })
 export class TableDemoComponent implements OnInit {
+  // to change the order of column use this array
+  // html order does not matter
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
   constructor() {}
