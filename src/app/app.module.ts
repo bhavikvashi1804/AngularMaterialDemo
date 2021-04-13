@@ -31,6 +31,7 @@ import { SnackbarDemoComponent } from './snackbar-demo/snackbar-demo.component';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import { DialogExampleComponent } from './dialog-example/dialog-example.component';
 import { TableDemoComponent } from './table-demo/table-demo.component';
+import { ScrollDemoComponent } from './scroll-demo/scroll-demo.component';
 //refer this link for imports: https://stackoverflow.com/questions/58594311/angular-material-index-d-ts-is-not-a-module
 
 @NgModule({
@@ -61,6 +62,7 @@ import { TableDemoComponent } from './table-demo/table-demo.component';
     DialogDemoComponent,
     DialogExampleComponent,
     TableDemoComponent,
+    ScrollDemoComponent,
   ],
   entryComponents: [DialogExampleComponent],
   imports: [
