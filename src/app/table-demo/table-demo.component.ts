@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 
 export interface PeriodicElement {
@@ -20,19 +21,24 @@ const ELEMENT_DATA: PeriodicElement[] = [
   { position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F' },
   { position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne' },
 ];
+
+/**
+ * @title Table with sorting
+ */
 @Component({
   selector: 'app-table-demo',
   templateUrl: './table-demo.component.html',
   styleUrls: ['./table-demo.component.css'],
 })
-export class TableDemoComponent implements OnInit {
-  // to change the order of column use this array
-  // html order does not matter
+export class TableDemoComponent implements AfterViewInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
-  constructor() {}
 
-  ngOnInit(): void {}
+  @ViewChild(MatSort) sort: MatSort;
+
+  ngAfterViewInit() {
+    this.dataSource.sort = this.sort;
+  }
 
   applyFilter(text: string) {
     this.dataSource.filter = text.trim().toLowerCase();
