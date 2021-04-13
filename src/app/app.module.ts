@@ -73,6 +73,7 @@ import { ScrollDemoComponent } from './scroll-demo/scroll-demo.component';
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
+    ScrollingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

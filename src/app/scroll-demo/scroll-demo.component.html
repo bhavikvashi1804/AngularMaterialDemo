@@ -1,3 +1,6 @@
-<div *ngFor="let n of numbers" class="number">
-    {{n}}
-</div>
+<cdk-virtual-scroll-viewport itemSize="50" class="container">
+    <div *cdkVirtualFor="let n of numbers" class="number">
+        {{n}}
+    </div>
+</cdk-virtual-scroll-viewport>
+
