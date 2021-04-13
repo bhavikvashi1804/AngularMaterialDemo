@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MatTableDataSource } from '@angular/material/table';
 
 export interface PeriodicElement {
   name: string;
@@ -28,8 +29,12 @@ export class TableDemoComponent implements OnInit {
   // to change the order of column use this array
   // html order does not matter
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  dataSource = ELEMENT_DATA;
+  dataSource = new MatTableDataSource(ELEMENT_DATA);
   constructor() {}
 
   ngOnInit(): void {}
+
+  applyFilter(text: string) {
+    this.dataSource.filter = text.trim().toLowerCase();
+  }
 }
